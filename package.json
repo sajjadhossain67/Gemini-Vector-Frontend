@@ -1,0 +1,37 @@
+{
+  "name": "vector-logistics-autopilot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
+    "@react-three/postprocessing": "^3.0.4",
+    "@tanstack/react-query": "^5.51.1",
+    "framer-motion": "^11.3.19",
+    "lucide-react": "^0.407.0",
+    "next": "^16.1.6",
+    "postprocessing": "^6.36.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "three": "^0.166.1",
+    "zustand": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.14",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.166.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^16.1.6",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^5.4.5"
+  }
+}
